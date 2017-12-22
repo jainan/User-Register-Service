@@ -1,4 +1,4 @@
-package com.test.ankitjain.registerservice.exception;
+package com.test.registerservice.exception;
 
 public class InvalidParameterException extends Exception {
 

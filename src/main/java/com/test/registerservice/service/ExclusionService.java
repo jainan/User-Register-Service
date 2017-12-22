@@ -1,6 +1,6 @@
-package com.test.ankitjain.registerservice.service;
+package com.test.registerservice.service;
 
-import com.test.ankitjain.registerservice.exception.InvalidParameterException;
+import com.test.registerservice.exception.InvalidParameterException;
 
 /**
  * Service to offer validation of a user against a 'blacklist'. Blacklisted users fail the validation.

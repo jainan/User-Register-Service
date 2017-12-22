@@ -1,4 +1,4 @@
-package com.test.ankitjain.registerservice.handler;
+package com.test.registerservice.handler;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.test.ankitjain.registerservice.exception.InvalidParameterException;
-import com.test.ankitjain.registerservice.exception.ResourceNotFoundException;
-import com.test.ankitjain.registerservice.model.ApiError;
+import com.test.registerservice.exception.InvalidParameterException;
+import com.test.registerservice.exception.ResourceNotFoundException;
+import com.test.registerservice.model.ApiError;
 
 @ControllerAdvice
 public class RestExceptionHandler extends ResponseEntityExceptionHandler {

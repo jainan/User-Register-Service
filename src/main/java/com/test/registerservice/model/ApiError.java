@@ -1,8 +1,10 @@
-package com.test.ankitjain.registerservice.model;
+package com.test.registerservice.model;
+
+import java.io.Serializable;
 
 import org.springframework.http.HttpStatus;
 
-public class ApiError {
+public class ApiError implements Serializable {
     private HttpStatus status;
     private String message;
 
